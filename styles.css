@@ -1,0 +1,113 @@
+/* основний стиль */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* чорний фон */
+    color: #f4f4f4; /* світлий текст */
+}
+
+/* меню */
+nav {
+    background-color: #f1c40f; /* жовтий фон */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1c1c1c; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f1c40f; 
+}
+
+/* заговолок */
+header {
+    background-color: #f1c40f; 
+    color: #1c1c1c; 
+    padding: 50px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* секції */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #f1c40f; 
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* товари */
+.category {
+    background-color: #333; 
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.category h3 {
+    color: #f1c40f; 
+    font-size: 24px;
+}
+
+.category p {
+    color: #f4f4f4; 
+    font-size: 16px;
+}
+
+/* Стилі для футера */
+footer {
+    background-color: #1c1c1c; 
+    color: #f4f4f4; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    color: #f1c40f; 
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+footer .social-links a:hover {
+    color: #1c1c1c; 
+    background-color: #f1c40f; 
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
